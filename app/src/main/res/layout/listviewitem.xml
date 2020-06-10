@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="start|top"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="102dp"
+        android:layout_height="86dp"
+        android:src="@drawable/a101388482_845419215943406_6318797791871107072_n" />
+
+    <LinearLayout
+        android:layout_width="309dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="5dp"
+        android:paddingLeft="10dp">
+
+        <TextView
+            android:id="@+id/txtXe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtChuyen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

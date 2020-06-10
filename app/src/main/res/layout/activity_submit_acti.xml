@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    tools:context=".submit_acti">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your phone number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/txtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Your email"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtRoom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Room"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtRequest"
+        android:layout_width="match_parent"
+        android:layout_height="133dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="put your request here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Pick a Date"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="25dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SEND" />
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Home" />
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
